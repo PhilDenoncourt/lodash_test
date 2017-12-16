@@ -1,0 +1,17 @@
+{
+  "name": "lodash_test",
+  "version": "1.0.0",
+  "description": "Just a bunch of lodash examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
