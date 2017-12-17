@@ -2,8 +2,6 @@ const _ = require("lodash");
 const people = require("../../data/people");
 
 describe("countBy",()=>{
-
-
     it("Should count the number of occurrences for each eye color",()=>{
        const t= _.countBy(people,"eyeColor");
        expect(t).toEqual({"blue": 54, "brown": 65, "green": 47});
@@ -17,6 +15,7 @@ describe("countBy",()=>{
         const t=_.countBy(data,"field1");
         expect(t).toEqual({"24":2});
     });
+
     it("Groups numbers and similar strings together, but not dates",()=>{
         const data = [
             {field1:"24"},
