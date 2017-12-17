@@ -52,5 +52,5 @@ describe("add", () => {
         const data = ["Apple","Pie"];
         const t = _.add("Baked ",data);
         expect(t).toEqual("Baked Apple,Pie");
-    })
+    });
 });
