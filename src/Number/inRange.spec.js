@@ -51,5 +51,5 @@ describe("inRange", () => {
     it("Works with un-safe integers",()=>{
         const t = _.inRange(Math.pow(2,53),Math.pow(2,53)+2);
         expect(t).toBeTruthy();
-    })
+    });
 });
