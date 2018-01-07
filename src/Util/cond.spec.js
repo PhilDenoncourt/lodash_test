@@ -1,5 +1,4 @@
 const _ = require("lodash");
-const people = require("../../data/people");
 
 describe("cond", () => {
     function isEven(n) {
